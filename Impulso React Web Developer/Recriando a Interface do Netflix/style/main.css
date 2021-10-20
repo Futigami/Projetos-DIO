@@ -40,6 +40,10 @@ header nav a:hover{
     color: #fff;
 }
 
+.container{
+    margin-left: 30px;
+}
+
 /*Filme principal*/
 
 .filme-principal{
@@ -79,6 +83,11 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
+.filme-principal .container{
+    width: 70%;
+}
+
+/*transição ao passar mouse por cima*/
 .botao:hover{
     background-color: white;
     color: black;
